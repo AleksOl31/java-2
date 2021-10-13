@@ -1,6 +1,6 @@
 package ru.alexanna.lesson_1.competitions;
 
-public abstract class Competitor implements Runnable, Jumping {
+public abstract class Competitor implements Sportsman {
 	private String name;
 	
 	private int maxDistance;

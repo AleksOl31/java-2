@@ -1,6 +1,6 @@
 package ru.alexanna.lesson_1.obstaclecourse;
 
-import ru.alexanna.lesson_1.competitions.Competitor;
+import ru.alexanna.lesson_1.competitions.Sportsman;
 
 public class Wall implements Obstacle {
 	private int height;
@@ -13,7 +13,7 @@ public class Wall implements Obstacle {
 		return height;
 	}
 	
-	public boolean overcome(Competitor competitor) {
-		return competitor.jump(height);
+	public boolean overcome(Sportsman sportsman) {
+		return sportsman.jump(height);
 	}
 }

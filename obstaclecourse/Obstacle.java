@@ -1,7 +1,7 @@
 package ru.alexanna.lesson_1.obstaclecourse;
 
-import ru.alexanna.lesson_1.competitions.Competitor;
+import ru.alexanna.lesson_1.competitions.Sportsman;
 
 public interface Obstacle {
-	boolean overcome(Competitor competitor);
+	boolean overcome(Sportsman sportsman);
 }

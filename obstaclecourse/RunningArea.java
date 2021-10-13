@@ -1,6 +1,6 @@
 package ru.alexanna.lesson_1.obstaclecourse;
 
-import ru.alexanna.lesson_1.competitions.Competitor;
+import ru.alexanna.lesson_1.competitions.Sportsman;
 
 public class RunningArea implements Obstacle {
 	private int length;
@@ -13,7 +13,7 @@ public class RunningArea implements Obstacle {
 		return length;
 	}
 	
-	public boolean overcome(Competitor competitor) {
-		return competitor.run(length);
+	public boolean overcome(Sportsman sportsman) {
+		return sportsman.run(length);
 	}
 }
